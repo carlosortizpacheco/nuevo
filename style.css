@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./bg_corazon.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+nav {
+  display: flex;
+  height: 200px;
+  padding-top: 3%;
+  padding-left: 3%;
+}
+
+nav > figure {
+  width: 40px;
+  height: 120px;
+}
+
+nav > figure > img {
+  width: 100%;
+  height: 100%;  
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-left: 60%;
+  margin-right: 2%;
+  width: 40%;
+}
+
+nav > ul > li:hover a {
+  color: yellow;
+}
+
+nav > ul > li:hover div {
+  width: 100%;
+  background-color: yellow;
+}
+
+nav > ul > li > a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+nav > ul > li > div {
+  width: 10px;
+  height: 2px;
+  background-color: white;
+  margin: 10% auto 0 auto;
+  transition: all 0.5s;
+}
+
+.weareAtrium-container {
+  padding-left: 15%;
+}
+
+.weareAtrium-container > h3 {
+  font-size: 1vw;
+  color: white;
+  margin-top: 3%;
+}
+
+.weareAtrium-container > h1 {
+  font-size: 2.5vw;
+  color: white;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  width: 50%;
+}
+
+.weareAtrium-container > figure {
+  width: 22px;
+  height: 40px;
+  margin-left: 3%;
+}
+
+.weareAtrium-container > figure > img {
+  width: 100%;
+  height: 100%;
+}
+
+.auricula02-container {
+  display: flex;
+  width: 80%;
+  height: 450px;
+  margin: 25% auto 20% auto;
+  border: 1px solid red;
+  color: white;
+}
+
+.auricula02-info {
+  width: 45%;
+  text-align: right;
+  padding-right: 9%;
+}
+
+.auricula02-info > h2 {
+  font-size: 1.5vw;
+}
+
+.auricula02-info > div:nth-child(2) {
+  width: 65%;
+  margin-left: 35%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: 2px;
+  background-color: yellow;
+}
+
+.auricula02-info > p {
+  font-size: 1.8vw;
+  margin-bottom: 5%;
+}
+
+.auricula02-info > div:nth-child(4) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.auricula02-info > div:nth-child(4) p {
+  color: yellow;
+  margin-right: 2.5%;
+}
+
+.auricula02-info > div:nth-child(4) figure {
+  border: 1px solid rebeccapurple;
+  width: 85px;
+  height: 20px;
+}
+
+.auricula02-images {
+  display: flex;
+  width: 55%;
+  border: 1px solid blue;
+}
+
+.auricula02-images > div {
+  width: 50%;
+  margin-top: 8%;
+}
+
+.auricula02-images > div > figure {
+  width: 98%;
+  height: 350px;
+  border: 1px solid green;
+  margin-bottom: 5%;
+}
+
+.auricula03-container {
+  height: 100vh;
+  width: 100%;
+  background-image: url('https://auricula-webpages-resources.s3.amazonaws.com/fotos_nosotros_desktop.png');
+  background-size: cover;
+  color: white;
+}
+
+.auricula03-container > div {
+  width: 30%;
+  margin-left: 60%;
+  padding-top: 10%;
+}
+
+.auricula03-container > div > h2 {
+  font-size: 1.5vw;
+}
+
+.auricula03-container > div > div {
+  width: 65%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: 2px;
+  background-color: yellow;
+}
+
+.auricula03-container > div > p {
+  margin-bottom: 5%;
+}
+
+.auricula03-container > div > p:nth-child(3) span {
+  color: yellow;
+}
