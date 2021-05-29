@@ -1,3 +1,13 @@
+@font-face {
+  font-family:bebasbold;
+  src: url('./BebasNeue-Bold.woff');
+}   
+
+@font-face {
+  font-family:monseregular;
+  src: url('./Montserrat-Regular.woff');
+}   
+
 * {
   margin: 0;
   padding: 0;
@@ -67,6 +77,7 @@ nav > ul > li > div {
   font-size: 1vw;
   color: white;
   margin-top: 3%;
+  font-family:bebasbold;
 }
 
 .weareAtrium-container > h1 {
@@ -105,6 +116,7 @@ nav > ul > li > div {
 
 .auricula02-info > h2 {
   font-size: 1.5vw;
+  font-family:bebasbold;
 }
 
 .auricula02-info > div:nth-child(2) {
@@ -182,9 +194,92 @@ nav > ul > li > div {
 }
 
 .auricula03-container > div > p {
+  font-family:monseregular;
   margin-bottom: 5%;
 }
 
 .auricula03-container > div > p:nth-child(3) span {
   color: yellow;
 }
+
+.auricula04-container{
+ width: 60%;
+  
+}
+
+.auricula04-container{
+   margin: auto;
+   margin-top: 10%;
+    
+
+
+}
+
+.auricula04-container h2, .auricula04-container p{
+  text-align: center;
+  color:  white;
+}
+
+.auricula04-container h2{
+  font-size: 1vw;
+}
+
+.auricula04-container p{
+  font-size: 2vw;
+  margin-bottom: 2%;
+}
+
+.auricula04-container > div{
+  width: 30%;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  height: 2px;
+  background-color: yellow;
+}
+
+.auricula04-container > video{
+  width: 100%;
+
+}
+
+.auricula05-container{
+  width: 80%;
+  margin: 10% auto;
+  
+}
+
+.auricula05-container h2{
+  color: white;
+  font-size: 1.5vw;
+  
+}
+
+.auricula05-container > div:nth-child(2){
+  width: 20%;  
+  margin-top: 2%;
+  margin-bottom: 2%;
+  height: 2px;
+  background-color: yellow;
+}
+
+
+.auricula05-container p:nth-child(3){
+  color: white;
+  font-size: 2.5vw;
+  margin-bottom: 2%;
+}
+.auricula05-container p:nth-child(4){
+  color: #EBD282;
+}
+
+.auricula05-container p:nth-child(5){
+  color: #FFFFFF;
+  margin-bottom: 1%;
+}
+
+.auricula05-container p:nth-child(6){
+  color: #FFFFFF;
+}
+
+
