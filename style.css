@@ -69,6 +69,10 @@ nav > ul > li > div {
   transition: all 0.5s;
 }
 
+.nav-hamburguer{
+  display: none;
+}
+
 .weareAtrium-container {
   padding-left: 15%;
 }
@@ -202,6 +206,11 @@ nav > ul > li > div {
   color: yellow;
 }
 
+.auricula03-container figure{
+  display: none;
+
+}
+
 .auricula04-container{
  width: 60%;
   
@@ -210,8 +219,6 @@ nav > ul > li > div {
 .auricula04-container{
    margin: auto;
    margin-top: 10%;
-    
-
 
 }
 
@@ -282,4 +289,398 @@ nav > ul > li > div {
   color: #FFFFFF;
 }
 
+footer{
+  width: 80%;
+  margin: auto;
+}
 
+footer a{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1vw;
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+footer:hover a{
+  font-size: 100%;
+  
+}
+
+footer >div { 
+  display: flex;
+  margin-top: 3%;  
+  color: #FFFFFF;
+  font-size: 1vw;
+}
+
+footer > div :nth-child(2){
+  margin-left: 52.2%;
+}
+
+
+
+@media(max-width:600px) {
+  
+  
+  nav {    
+    padding-top: 10%;
+    padding-left: 5%;
+    width: 100%;    
+  }
+  
+  nav > figure { 
+
+  }
+  
+  nav > figure > img {
+      
+  }
+  
+  nav > ul {
+    
+  }
+  
+  nav > ul > li:hover a {
+   
+  }
+  
+  nav > ul > li:hover div {
+    
+  }
+  
+  nav > ul > li > a {
+    
+  }
+  
+  nav > ul > li > div {
+    
+  }
+
+  .nav-desktop{
+    display: none;
+  }
+
+  .nav-hamburguer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 20px;
+    margin-left: 70%;
+    
+  }
+
+  .nav-hamburguer div {
+    width: 25px;
+    height: 4px;
+    margin-bottom: 10%;
+    border: 1px solid #EBD282;
+    background-color: #EBD282;
+  }
+
+  .menu-hamburguer {
+    position: fixed;
+    top: 0;
+    /* display: block; */
+    border: 1px solid blue;
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+  }
+  
+  .weareAtrium-container {     
+    padding-left: 5%;
+    margin-top: 10%;
+    width: 100%;
+  }  
+  
+  .weareAtrium-container > h3 {
+    font-size: 6vw;    
+    margin-top: 10%;    
+  }
+  
+  .weareAtrium-container > h1 {
+    font-size: 8vw;    
+    margin-top: 3%;
+    margin-bottom: 25%;    
+    width: 100%;
+  }
+  
+  .weareAtrium-container > figure {
+    width: 15px;
+    height: 40px;    
+    margin-left: 3%;
+  }
+  
+  .weareAtrium-container > figure > img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .auricula02-container {
+    display: flex;
+    flex-direction: column;    
+    width:100%;
+    height: 1237px;
+      
+    
+  }
+  
+  .auricula02-info {
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    margin-top: 10%;
+    text-align: right;
+    padding-right: 9%;
+  }
+  
+  .auricula02-info > h2 {
+    font-size: 5vw;
+   
+  }
+  
+  .auricula02-info > div:nth-child(2) {
+    width: 65%;
+    margin-left: 35%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 2px;
+    background-color: yellow;
+  }
+  
+  .auricula02-info > p {    
+    border: 1px solid green;
+    font-size: 8vw;
+    margin-left: 5%;
+    width: 95%;
+    margin-bottom: 10%;
+  }
+  
+  .auricula02-info > div:nth-child(4) {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10%;
+  }
+  
+  .auricula02-info > div:nth-child(4) p {   
+    margin-right: 2.5%;
+  }
+  
+  .auricula02-info > div:nth-child(4) figure {   
+    width: 200px;
+    height: 15px;
+    border: 1px solid yellow;
+  }
+  
+  .auricula02-images {
+    display: flex;    
+    flex-direction: column;    
+    width: 100%;      
+  }
+  
+  .auricula02-images > div {    
+    margin: auto;
+    width: 85%;
+    margin-top: 8%;
+  }
+  
+  .auricula02-images > div > figure {
+    width: 100%;
+    height: 350px;    
+    border: 1px solid green;
+    margin-bottom: 5%;
+  }
+  
+  .auricula02-images :nth-child(1) p{
+    font-size: 6vw;
+  }
+  
+
+  .auricula02-images :nth-child(2) p{ 
+    font-size: 6vw;   
+    width: 50%;
+  }
+  
+  .auricula03-container {
+    display: flex;
+    flex-direction: column;    
+    height: 150vh;
+    width: 100%;
+    margin-top: -10%;   
+    background-image: none;
+    background-size: none;
+    color: white;
+  }
+  
+  .auricula03-container > div {
+    width: 100%;
+    margin-left:10%;
+    padding-top: 10%;
+  }
+  
+  .auricula03-container > div > h2 {
+    font-size: 5vw;
+  }
+  
+  .auricula03-container > div > div {
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 2px;
+    background-color: yellow;
+  }
+  
+  .auricula03-container > div > p {
+    width: 83%;
+    font-size: 5vw;
+    font-family:monseregular;
+    margin-bottom: 5%;
+  }
+  
+  .auricula03-container > div > p:nth-child(3) span {
+    color: yellow;
+  }
+
+  .auricula03-container figure{
+    display:block;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 600px;     
+  }
+
+  .auricula03-container img{  
+    width: 100%;
+    height: 100%;
+  }
+
+
+  
+  
+  .auricula04-container{
+   width: 100%;      
+  }
+  
+  .auricula04-container{
+     width: 50vh;
+     margin: auto;
+     margin-top: 10%;    
+  
+  
+  }
+  
+  .auricula04-container h2, .auricula04-container p{
+    
+  }
+  
+  .auricula04-container h2{
+    font-size: 5vw;
+    margin-bottom: 5%;
+  }
+  
+  .auricula04-container p{
+    font-size: 8vw;
+    margin-bottom:-25% ;
+  }
+  
+  .auricula04-container > div{
+    width: 65%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 2px;
+    background-color: yellow;
+  }
+  
+  .auricula04-container > video{
+    width: 100%;
+    margin-bottom: -10%;      
+  }
+  
+  .auricula05-container{
+    width: 90%;
+    height: 40vh;
+    margin:auto;
+    
+  }
+  
+  .auricula05-container h2{
+    color: white;
+    font-size: 5vw;
+    margin-bottom: 5%;    
+  }
+  
+  .auricula05-container > div:nth-child(2){
+    width: 20%;  
+    margin-top: 2%;
+    margin-bottom: 5%;
+    height: 2px;
+    background-color: yellow;
+  }
+  
+  
+  .auricula05-container p:nth-child(3){
+    color: white;
+    font-size: 7vw;
+    margin-bottom: 5%;
+  }
+  .auricula05-container p:nth-child(4){
+    color: #EBD282;
+    font-size: 7vw;
+   
+  }
+  
+  .auricula05-container p:nth-child(5){
+    color: #FFFFFF;
+    font-size: 6vw;
+    margin-bottom: 5%;
+  }
+  
+  .auricula05-container p:nth-child(6){
+    color: #FFFFFF;
+    font-size: 6vw;
+  }
+  
+  footer{
+    height: 350px;
+    width: 90%;
+    margin: auto;
+  }
+  
+  footer a{
+    display: flex;
+    justify-content: center;
+    font-size: 5vw;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-bottom: 10%;
+  }
+  
+  footer >div {     
+    display: flex;
+    flex-direction:column-reverse;    
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 5vw;
+  }
+   
+  footer > div :nth-child(1){
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;    
+  }
+
+  
+  footer > div :nth-child(2){
+    margin-left: 0;
+    width: 70%;    
+    text-align: center; 
+    margin-left: 15%; 
+    margin-bottom: 10%;   
+  }
+
+}
